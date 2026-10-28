@@ -1,0 +1,11 @@
+configuration,metric,runs,mean,stdev
+classical,elapsed_seconds,10,0.046855,0.013062
+classical,cpu_seconds,10,0.025000,0.007071
+classical,peak_memory_kb,10,10536.400000,111.959516
+classical,bytes_read,10,1337.000000,0.000000
+classical,bytes_written,10,304.000000,0.000000
+hybrid,elapsed_seconds,10,0.035941,0.006844
+hybrid,cpu_seconds,10,0.014000,0.005164
+hybrid,peak_memory_kb,10,10580.800000,82.317542
+hybrid,bytes_read,10,2425.000000,0.000000
+hybrid,bytes_written,10,1482.000000,0.000000

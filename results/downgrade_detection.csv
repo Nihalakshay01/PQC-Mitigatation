@@ -1,0 +1,8 @@
+test,detected_label,expected_label,status,details
+hybrid_only_vs_classical,HANDSHAKE_FAILURE,HANDSHAKE_FAILURE,MATCH,Client log records a TLS negotiation failure
+permitted_fallback_baseline,CLASSICAL_FALLBACK,CLASSICAL_FALLBACK,MATCH,Packet capture contains ServerHello selecting X25519 (group 29)
+hybrid_success_test_1,HANDSHAKE_FAILURE,HYBRID_SUCCESS,REVIEW,Client received fatal TLS handshake failure
+hybrid_success_test_2,HANDSHAKE_FAILURE,HYBRID_SUCCESS,REVIEW,Client received fatal TLS handshake failure
+hybrid_success_test_3,HANDSHAKE_FAILURE,HYBRID_SUCCESS,REVIEW,Client received fatal TLS handshake failure
+hybrid_success_test_4,HANDSHAKE_FAILURE,HYBRID_SUCCESS,REVIEW,Client received fatal TLS handshake failure
+hybrid_success_test_5,HANDSHAKE_FAILURE,HYBRID_SUCCESS,REVIEW,Client received fatal TLS handshake failure

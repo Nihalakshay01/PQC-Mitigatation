@@ -1,0 +1,3 @@
+test,detected_label,status,evidence,malicious_downgrade_confirmed
+hybrid_only_vs_classical,HANDSHAKE_FAILURE,MATCH,Client log records a TLS negotiation failure,NO
+permitted_fallback_baseline,CLASSICAL_FALLBACK,MATCH,Packet capture contains ServerHello selecting X25519 (group 29),NO
